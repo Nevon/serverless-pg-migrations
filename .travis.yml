@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - node
+cache: yarn
+deploy:
+  provider: npm
+  email: tommy.brunn@gmail.com
+  api_key:
+    secure: wCyAK47ftDDhAD9tkT7xuMicy7XvhE1kNv7/tZeJ0ivm9RmpgMwhGdspJ+cqNGMjqeVLannPPHm1cN2YbTAZ1k5HDwoVEf/OpyLZPzEimkQMQmbwEJD4YHTIpyxH9bYwi3BJW7HATvjGzMTSbbS/dWndiSVnbXbZ6AXzDnP67WapFzs/g2dmkt7HrkuF5fbGIRR1NzrfrGDCDxYDpjaJ8voGbpODPwrewAzsvws6Oh9wY45uO2bdYtRzgYQvdSsBnFA+byTEO27XS+b4hkz1+r3awkM5HJLQklD03msK5LTX7ATOH2rMSJGIRXownz45HNGkDYkPBUUNedrRgACYTgNzI6bhaIkTU3LO0xM7p8Np1KXlhu+mXpGg1KknTXkCFGUYR+4Kayr01ExADejevi2skG2kwRObFdKoJwHSMs5BTbbbsnE06e/AwHKfVNo4AjWS4ey4eoJtJ/oICi+ttuJUls5Z7YQODILZgxEK8lTN9N9XSdsCeLkU7ndfwlpfZKPY8754Uk+Cu6zkjuavDuqFYimA39iSZZGYczKXpNTnEck5zNjkw+XloxhrboC8sehGRLc9LVWZFF4PwUeyVL7Yrtos5jpk+VYF7ODpGiEujRPMW6qx6WENLKMbDHApZP6kea6JhVYnS7uRcxgiv3juHKAqBM+tjjhC+anolkc=
+  on:
+    tags: true
+    repo: Nevon/serverless-pg-migrations

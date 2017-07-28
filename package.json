@@ -1,0 +1,23 @@
+{
+  "name": "serverless-pg-migrations",
+  "version": "1.0.0",
+  "description": "Handlers for triggering migrations from lambdas",
+  "main": "index.js",
+  "repository": "https://github.com/Nevon/serverless-pg-migrations",
+  "author": "Tommy Brunn <tommy.brunn@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "precommit": "lint-staged",
+    "format": "prettier --write *.js"
+  },
+  "dependencies": {
+    "pg": "^7.0.2",
+    "sequelize": "^4.4.2",
+    "umzug": "^2.0.1"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3"
+  }
+}
