@@ -1,7 +1,7 @@
 {
   "name": "serverless-pg-migrations",
   "version": "1.0.0",
-  "description": "Handlers for triggering migrations from lambdas",
+  "description": "Trigger Postgres migrations from AWS Lambda with Serverless ⚡️",
   "main": "index.js",
   "repository": "https://github.com/Nevon/serverless-pg-migrations",
   "author": "Tommy Brunn <tommy.brunn@gmail.com>",
